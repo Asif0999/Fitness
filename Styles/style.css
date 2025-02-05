@@ -242,6 +242,85 @@
     color: #383838;
 }
 
+/* part 6 */
+.txt{
+    text-align: center;
+    
+}
+.txt h1{
+    font-size: 50px;
+    font-family:Arial,
+        sans-serif ;
+        color: white;
+        margin-top: 0%;
+        padding-top: 88px;
+        margin-bottom: 15px;
+}
+.txt p{
+    font-size: 15px;
+    font-family: Arial,
+            sans-serif;
+            color: silver;
+            padding-bottom: 60px;
+}
+.container5{
+    background-color: #383838;
+}
+/* .box2{
+    background-color: #202020;
+    border-radius: 20px;
+    color: white;
+    width: 1060;height: 604;
+    margin-left: 190px;margin-right: 190px;
+}
+.control{
+    
+}
+.imgAdd{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    padding: 60px;
+    gap: 40px;
+    
+}
+.imgAdd img{
+    border-radius: 20px;
+} */
+/* Trainer card part */
+.trainer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    background-color: #202020;
+    padding: 20px;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-bottom: 88px;
+    border-radius: 10px;
+}
 
+.trainer-card {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.trainer-card img {
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.trainer-info {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
 
 
